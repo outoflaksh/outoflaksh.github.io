@@ -6,6 +6,7 @@
 body, html {
     min-height: 100vh;
     width: 100%;
+    margin: 0;
 }
 
 body {
@@ -106,3 +107,40 @@ a:hover {
     left: -5%;
     transform: rotate(150deg);
 }
+
+@media only screen and (max-width: 600px) {
+    section {
+        flex-direction: column;
+    }
+
+    .left, .right {
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+    }
+
+    .name {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .links li {
+        display: inline;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .links li:hover {
+        transform: 0;
+    }
+    .circle1 {
+        top: -35%;
+    }
+    .circle2 {
+        left: -15%;
+    }
+  }
