@@ -1,0 +1,108 @@
+* {
+    margin : 0;
+    padding: 0;
+}
+
+body, html {
+    min-height: 100vh;
+    width: 100%;
+}
+
+body {
+    background: rgb(62, 37, 202);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+section {
+    display: flex;
+    height: 40vh;
+    cursor: default;
+    z-index: 2;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.left, .right {
+    height: 100%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left {
+    flex: 2;
+}
+
+.right {
+    flex: 1;
+}
+
+.name {
+    font-size: 5rem;
+    text-align: right;
+    font-weight: 800;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 100;
+    text-align: right;
+}
+
+.links {
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+.links li {
+    transition: 0.2s ease;
+}
+
+.links li:hover {
+    transform: translateX(5px);
+}
+
+.circle1, .circle2 {
+    border-radius: 50% 50%;
+    position: absolute;
+    z-index: 1;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+    padding: 0;
+    box-shadow: inset 0px 5px 50px rgba(0,0,0, 0.1);
+    pointer-events: none;
+}
+
+.circle1 {
+    height: 750px;
+    width: 750px;
+    top: -20%;
+    left: 45%;
+    transform: rotate(45deg);
+}
+
+.circle2 {
+    height: 350px;
+    width: 350px;
+    top: 65%;
+    left: -5%;
+    transform: rotate(150deg);
+}
