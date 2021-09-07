@@ -1,1 +1,1 @@
-# Source code for [GitHub Pages]("https://outoflaksh.github.io/")
+# Source code for [GitHub Pages](https://outoflaksh.github.io/)
