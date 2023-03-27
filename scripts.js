@@ -29,7 +29,7 @@ const files = {
   "about_me.txt": `hi, i'm lakshya and i'm ${Math.round(
     new Date().getFullYear() - 2002.8
   )}.<br>i like to write code, listen to music and poetry.<br>i have also built a bunch of projects relating to backend, frontend, cloud and automation. you can find them on my <a href="http://github.com/outoflaksh" target="_blank">github page</a>.`,
-  "social.txt": `["<a target="_blank" href="https://github.com/outoflaksh">github</a>", "<a target="_blank" href="https://linkedin.com/in/lakshya-malik/">linkedin</a>", "<a target="_blank" href="https://lakshwrites.medium.com">my written stuff</a>", "<a target="_blank" href="https://instagram.com/outoflaksh">reddit</a>"]`,
+  "social.txt": `["<a target="_blank" href="https://github.com/outoflaksh">github</a>", "<a target="_blank" href="https://linkedin.com/in/lakshya-malik/">linkedin</a>", "<a target="_blank" href="https://lakshwrites.medium.com">my written stuff</a>", "<a target="_blank" href="https://instagram.com/outoflaksh">instagram</a>"]`,
 };
 
 const commands = {
