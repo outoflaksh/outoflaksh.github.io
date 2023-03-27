@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Hack';
+    src: local('/assets/Hack-Regular.ttf');
+}
+
+body {
+    background-color: #282a36;
+    font-family: 'Hack', monospace !important;
+    color: #f8f8f2;
+}
+
+a {
+    text-decoration-line: underline !important;
+}
+
+.terminal {
+    overflow-y:scroll;
+    border-radius: 4px;
+    border: 2px solid #ebbcba;
+    scrollbar-width: none;
+}
+
+.terminal::-webkit-scrollbar {
+    display: none !important;
+}
+
+.user { color: #ff79c6 }
+.directory { color: #8be9fd }
+.symbols { color: #bd93f9; }

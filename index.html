@@ -1,36 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="rgb(62, 37, 202)">
-    <link rel="icon" href="./assets/terminal-solid.svg" type="image/svg+xml" sizes="16x16" color="#ffffff">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
-    <title>Lakshya Malik</title>
+    <title>lakshya malik</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
-        <section>
-            <div class="left">
-                <div class="name">  <p>lakshya</p> <p>malik</p> </div>
-                <div class="title">software developer</div>
-            </div>
-            <div class="right">
-                <div class="links">
-                    <ul>
-                        <li><a href="https://github.com/outoflaksh" target="_blank">github</a></li>
-                        <li><a href="https://linkedin.com/in/lakshya-malik" target="_blank">linkedin</a></li>
-                        <li><a href="https://lakshwrites.medium.com" target="_blank">medium</a></li>
+    <div class="terminal p-8 absolute inset-2">
+        <div class="break-words" id="history">
+            Welcome to Lakshya's cool website.<br>
+            Type 'help' to see the list of available commands.<br>
+            <br>
+        </div>
 
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <div class="circle1"></div>
-        <div class="circle2"></div>
+        <div class="flex flex-wrap">
+            <div class="flex-none" id="prompt"></div>
+            <input class="grow outline-none border-none bg-transparent" type="text" id="input" autofocus
+                autocomplete="off">
+        </div>
+    </div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="scripts.js"></script>
 </body>
+
 </html>
