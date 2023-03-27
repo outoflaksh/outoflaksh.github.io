@@ -37,6 +37,7 @@ const commands = {
   ls: "lists the directory contents.",
   cat: "prints the specified file.",
   clear: "clears the terminal history.",
+  exit: "closes the site",
 };
 
 // controller func
@@ -72,6 +73,8 @@ function cmd_controller(input_value) {
         } else {
           history.append("error: file not specified.");
         }
+      } else if (cmd == "exit") {
+        window.close();
       }
     } else {
       history.append(
